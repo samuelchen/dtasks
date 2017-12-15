@@ -1,0 +1,8 @@
+# celery
+celery>=4.1
+django-celery-results
+sqlalchemy>=1.1.15      # for db broker
+eventlet    # for celery worker on window. e.g. $ celery -A <mymodule> worker -l info -P eventlet
+
+# network io
+requests

@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class DtaskConfig(AppConfig):
-    name = 'dtask'
+class DtasksConfig(AppConfig):
+    name = 'dtasks'
